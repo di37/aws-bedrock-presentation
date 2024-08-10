@@ -1,0 +1,6 @@
+awscli==1.33.35
+boto3==1.34.145
+groq==0.9.0
+python-dotenv==1.0.1
+streamlit==1.36.0
+yt-dlp==2023.11.14
