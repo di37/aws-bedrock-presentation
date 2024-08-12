@@ -17,7 +17,7 @@ def clear_chat_history():
 
 
 def main():
-    st.title("AWS Bedrock Chat Application")
+    st.title("🌩️ Amazon Bedrock Chat Application")
 
     st.sidebar.header("Adjust Parameters")
 

@@ -4,7 +4,7 @@ from utils import MODEL_LLAMA_3_1_8B, MODEL_LLAMA_3_1_70B, MODEL_LLAMA_3_1_405B
 
 
 def main():
-    st.title("Text Generation Application")
+    st.title("🌩️ Amazon Bedrock Text Gen Application")
 
     st.sidebar.header("Adjust Parameters")
 
@@ -53,9 +53,6 @@ def main():
 
     # Generate button in sidebar
     generate_button = st.sidebar.button("Generate")
-
-    # Main area
-    st.header("Generated Text")
 
     # Create a placeholder for the output
     output_placeholder = st.empty()
